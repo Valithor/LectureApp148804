@@ -37,14 +37,16 @@ const Home = () => {
         <div className={classes.bg}>
            
                                 {!!postInfo && postInfo?.posts.map((post: any)=>(
+                                    <Grid container>
                                 <Grid item xs>
                                 <Typography variant="subtitle1" gutterBottom>
-                                {post.title}
+                                Title: {post.title}
                                 </Typography>  
                                 <Typography variant="subtitle1" gutterBottom>
-                                {post.body}
+                                Subject: {post.body}
                                 </Typography>  
-                                <span>&nbsp;&nbsp;</span>                                </Grid>  
+                                <span>&nbsp;&nbsp;</span>                                
+                                </Grid>  </Grid>
                                 ))} 
         
         </div>

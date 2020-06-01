@@ -1,4 +1,4 @@
-import http, { URL } from './utils';
+import http, { URL, URL2 } from './utils';
 
 const API = {
   SEARCH_BY_NAME: (name: string) => `${URL}&s=${name}`,

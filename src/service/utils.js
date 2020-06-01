@@ -5,3 +5,4 @@ const http = {
   
   export default http;
   export const URL = `https://jsonplaceholder.typicode.com/posts`;
+  export const URL2 = `https://jsonplaceholder.typicode.com/comments`;
